@@ -542,26 +542,6 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
-      .publication-entry {
-        align-items: flex-start;
-      }
-      .publication-preview {
-        margin-bottom: 0.75rem;
-
-        figure {
-          margin: 0;
-        }
-
-        img {
-          width: 100%;
-          max-width: 170px;
-          aspect-ratio: 3 / 4;
-          object-fit: contain;
-          object-position: center;
-          background: var(--global-bg-color);
-          padding: 0.2rem;
-        }
-      }
       .preview {
         width: 100%;
         min-width: 80px;
