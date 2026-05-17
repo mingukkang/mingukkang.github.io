@@ -21,7 +21,7 @@
       institution: Pohang University of Science and Technology (POSTECH), Pohang, Republic of Korea
       year: 02/2020 - 02/2026
       description:
-        - "Advisors: Prof. Suha Kwak and Prof. Jaesik Park"
+        - 'Advisors: Prof. <a href="https://suhakwak.github.io/">Suha Kwak</a> and Prof. <a href="https://jaesik.info/">Jaesik Park</a>'
         - "Thesis: Efficient Deep Generative Models for Visual Content Generation"
         - "GPA: 4.09/4.30"
     - title: B.S. in Engineering
@@ -35,7 +35,7 @@
   type: time_table
   contents:
     - title: Founding Research Scientist
-      institution: Pika Labs, Remote
+      institution: Pika Labs, South Korea (Remote)
       year: 11/2024 - Present
       description:
         - Core contributor to Pika video generation models from Pika 2.0 onward, Nova lipsync models, and PikaStream1.0.
@@ -49,13 +49,13 @@
       institution: Adobe Research, Korea (Remote) / San Francisco, USA
       year: 07/2022 - 05/2024
       description:
-        - Mentors: Taesung Park, Connelly Barnes, Eli Shechtman, Jun-Yan Zhu, Richard Zhang, Sylvain Paris
+        - "Mentors: Taesung Park, Connelly Barnes, Eli Shechtman, Jun-Yan Zhu, Richard Zhang, Sylvain Paris"
         - GigaGAN (CVPR 2023) contributed to the development of Adobe Firefly.
     - title: Undergraduate Research Student
       institution: Vision and Intelligent System Laboratory, Pusan National University
       year: 08/2017 - 01/2020
       description:
-        - Advisor: Prof. Dongjoong Kang
+        - "Advisor: Prof. Dongjoong Kang"
 
 - title: Research Interest
   type: list
@@ -67,8 +67,8 @@
   type: list
   contents:
     - <a href="https://www.pika.me/blog/introducing-real-time-video-chat">PikaStream1.0</a>
-    - <a href="https://www.pika.me/">Nova Lipsync Models</a>
-    - <a href="https://www.pika.me/">Pika Video Generation Models</a>
+    - <a href="https://x.com/pika_labs/status/1954935844936024476?s=20">Nova Lipsync Models</a>
+    - <a href="https://x.com/pika_labs/status/1895156950431867318?s=20">Pika Video Generation Models</a>
     - <a href="https://github.com/mingukkang/elatentlpips">E-LatentLPIPS</a>
     - <a href="https://www.adobe.com/products/firefly.html">Adobe Firefly</a>
     - <a href="https://github.com/POSTECH-CVLab/PyTorch-StudioGAN">PyTorch StudioGAN</a>

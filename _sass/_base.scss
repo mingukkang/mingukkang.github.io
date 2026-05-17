@@ -107,12 +107,67 @@ blockquote {
   }
 }
 
+.post-title-native {
+  font-weight: 500;
+  font-size: 0.62em;
+  white-space: nowrap;
+}
+
 @media (min-width: 576px) {
   .profile {
     width: 30%;
     .address {
       p { display: block; }
     }
+  }
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.9rem;
+}
+
+.product-item {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+.product-thumb {
+  display: block;
+  overflow: hidden;
+  border-radius: 6px;
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+
+  img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+}
+
+.product-copy {
+  line-height: 1.45;
+}
+
+@media (max-width: 575px) {
+  .product-item {
+    grid-template-columns: 1fr;
+    gap: 0.55rem;
   }
 }
 

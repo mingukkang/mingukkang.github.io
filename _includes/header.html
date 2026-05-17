@@ -11,10 +11,10 @@
                 <span class="font-weight-bold">{{- site.first_name -}}&nbsp;</span>
               {%- endif -%}
               {%- if site.middle_name -%}
-                {{- site.middle_name -}}&nbsp;
+                <span class="font-weight-bold">{{- site.middle_name -}}&nbsp;</span>
               {%- endif -%}
               {%- if site.last_name -%}
-                {{- site.last_name -}}
+                <span class="font-weight-bold">{{- site.last_name -}}</span>
               {%- endif -%}
             {%- else -%}
               {{- site.title -}}
@@ -63,7 +63,7 @@
               {%- endif %}
               <!-- CV -->
               <li class="nav-item">
-                <a class="nav-link" href="/assets/pdf/cv_minguk.pdf" target="_blank"  rel="noopener noreferrer" class="float-right">Curriculum Vitae</a>
+                <a class="nav-link" href="/assets/pdf/cv_minguk.pdf" target="_blank" rel="noopener noreferrer">CV</a>
               </li>
 
               <!-- Other pages -->

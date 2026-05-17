@@ -3,7 +3,7 @@ layout: post
 inline: true
 ---
 
-**[Outstanding Reviewer](https://eccv.ecva.net/Conferences/2024/Reviewers), European Computer Vision Association (2024)**
+**Outstanding Reviewer, European Computer Vision Association (2024)**
 - Recognized as an outstanding reviewer for ECCV.
 
 **Graduate School Presidential Science Scholarship (2024)**
@@ -15,10 +15,10 @@ inline: true
 **BK21 Outstanding Paper Awards (2022)**
 - 1st Prize, POSTECH Graduate School of AI.
 
-**[Qualcomm Innovation Fellowship Korea](https://www.qualcomm.com/research/research/university-relations/innovation-fellowship/2021-south-korea) (2021)**
+**Qualcomm Innovation Fellowship Korea (2021)**
 - Qualcomm.
 
-**[16th Samsung Electro-Mechanics Paper Awards](http://www.samsungsem-contest.kr) (2020)**
+**16th Samsung Electro-Mechanics Paper Awards (2020)**
 - Silver Prize.
 
 **National Science and Engineering Scholarship (2013-2019)**

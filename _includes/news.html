@@ -3,9 +3,7 @@
             <h2>Products & Software</h2>
             {% if site.news != blank -%} 
             {%- assign news_size = site.news | size -%}
-            <!-- <div class="table-responsive" {% if site.news_scrollable and news_size > 3 %}style="max-height: 6v  w"{% endif %}> -->
-            <div class="table-responsive">
-              <table class="table table-sm table-borderless">
+            <div class="product-list">
               {%- assign news = site.news | reverse -%}
               {% if site.news_limit %}
               {% assign news_limit = site.news_limit %}
@@ -13,17 +11,21 @@
               {% assign news_limit = news_size %}
               {% endif %}
               {% for item in news limit: news_limit %} 
-                <tr>
-                  <td>
+                <div class="product-item">
+                  {% if item.image -%}
+                      <a class="product-thumb" href="{{ item.product_url }}" target="_blank">
+                      <img src="{{ item.image | prepend: '/assets/img/' | relative_url }}" alt="{{ item.title | default: 'Product preview' }}">
+                    </a>
+                  {%- endif %}
+                  <div class="product-copy">
                     {% if item.inline -%} 
-                      {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                      {{ item.content | emojify }}
                     {%- else -%} 
                       <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
                     {%- endif %} 
-                  </td>
-                </tr>
+                  </div>
+                </div>
               {%- endfor %} 
-              </table>
             </div>
           {%- else -%} 
             <p>No news so far...</p>
