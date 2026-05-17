@@ -24,24 +24,31 @@ jobs:
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.0.2'
+        ruby-version: '3.3'
         bundler-cache: true
     - name: Install deps
       run: |
+        sudo apt-get update
+        sudo apt-get install -y imagemagick
         npm install -g mermaid.cli
-    - name: Setup deploy options
-      id: setup
+    - name: Build website
+      env:
+        JEKYLL_ENV: production
+      run: bundle exec jekyll build
+    - name: Deploy website
+      if: github.event_name == 'push'
       run: |
         git config --global user.name "GitHub Action"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        if [[ ${GITHUB_REF} = refs/pull/*/merge ]]; then # pull request
-          echo "SRC_BRANCH=${GITHUB_HEAD_REF}" >> "$GITHUB_OUTPUT"
-          echo "NO_PUSH=--no-push" >> "$GITHUB_OUTPUT"
-        elif [[ ${GITHUB_REF} = refs/heads/* ]]; then # branch, e.g. master, source etc
-          echo "SRC_BRANCH=${GITHUB_REF#refs/heads/}" >> "$GITHUB_OUTPUT"
+        git fetch origin gh-pages
+        git worktree add -B gh-pages ../deploy-site origin/gh-pages
+        rsync -a --delete --exclude='.git' _site/ ../deploy-site/
+        touch ../deploy-site/.nojekyll
+        cd ../deploy-site
+        git add -A
+        if git diff --cached --quiet; then
+          echo "No changes to deploy."
+        else
+          git commit -m "Deploy ${GITHUB_SHA}"
+          git push origin HEAD:gh-pages
         fi
-        echo "DEPLOY_BRANCH=gh-pages" >> "$GITHUB_OUTPUT"
-    - name: Deploy website 
-      run:  yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
-                    --src ${{ steps.setup.outputs.SRC_BRANCH }} 
-                    --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }} 
