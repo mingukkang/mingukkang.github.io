@@ -6,4 +6,4 @@ inline: true
 
 [Pusan National University](https://www.pusan.ac.kr/), Pusan, South Korea \
 B.S. in Engineering (Major: Mechanical Engineering; Minor: Statistics) \
-Summa Cum Laude, College of Engineering
+Graduated summa cum laude, ranked 1st among 394 students in the College of Engineering.
