@@ -38,7 +38,7 @@
       institution: Pika Labs, South Korea (Remote)
       year: 11/2024 - Present
       description:
-        - Core contributor to Pika video generation models from Pika 2.0 onward, Nova lipsync models, and PikaStream1.0.
+        - Core contributor to Pika video generation models from Pika 2.0 onward, Pika lipsync model, and PikaStream1.0.
         - Developed tokenizers, distillation pipelines, fast super-resolution methods, and real-time video agent system components.
     - title: Research Scientist Intern
       institution: Pika Labs, Korea (Remote) / Palo Alto, USA
