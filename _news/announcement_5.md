@@ -6,4 +6,4 @@ product_url: https://x.com/pika_labs/status/1954935844936024476?s=20
 image: product_preview/nova_lipsync.jpg
 ---
 
-**[Audio-Driven Performance Model](https://x.com/pika_labs/status/1954935844936024476?s=20)**: developed generation and acceleration pipelines for Pika's audio-driven performance model.
+**[Audio-Driven Performance Model](https://x.com/pika_labs/status/1954935844936024476?s=20)**: developed generation and acceleration pipelines.
