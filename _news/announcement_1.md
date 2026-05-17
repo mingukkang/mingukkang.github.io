@@ -3,4 +3,4 @@ layout: post
 inline: true
 ---
 
-- **StudioGAN** is a Pytorch library providing implementations of representative Generative Adversarial Networks for image generation. I am the primary inventor of the StudioGAN library.
+- **[PyTorch StudioGAN](https://github.com/POSTECH-CVLab/PyTorch-StudioGAN)** is an open-source PyTorch library for representative GAN training and evaluation.

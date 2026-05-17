@@ -3,4 +3,4 @@ layout: post
 inline: true
 ---
 
-- **Firefly** is a text-to-image generative model developed by Adobe and integrated into Photoshop. My research contributed to the development of Firefly.
+- **[Adobe Firefly](https://www.adobe.com/products/firefly.html)** is Adobe's visual generative AI product suite; my GigaGAN research contributed to its development.

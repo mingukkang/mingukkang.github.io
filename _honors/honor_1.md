@@ -3,23 +3,23 @@ layout: post
 inline: true
 ---
 
-**Outstanding Reviewer, European Computer Vision Association (2024)**
-- Nominated as one of the outstanding reviewers for ECCV.
+**[Outstanding Reviewer](https://eccv.ecva.net/Conferences/2024/Reviewers), European Computer Vision Association (2024)**
+- Recognized as an outstanding reviewer for ECCV.
 
 **Graduate School Presidential Science Scholarship (2024)**
-- Received a scholarship totaling $26,000, which amounted to $1,450 per month over 18 months.  
+- Korea Student Aid Foundation.
 
-**BK21 outstanding paper awards (2024)**
-- 2st prize ($375) \- *Scaling up GANs for Text-to-Image Synthesis* (CVPR2023)
+**BK21 Outstanding Paper Awards (2024)**
+- 2nd Prize, POSTECH Graduate School of AI.
 
-**BK21 outstanding paper awards (2022)**
-- 1st prize ($750) \- *Rebooting ACGAN: Auxiliary Classifier GANs with Stable Training* (NeurIPS2021)
+**BK21 Outstanding Paper Awards (2022)**
+- 1st Prize, POSTECH Graduate School of AI.
 
-**Qualcomm Innovation Fellowship Korea (2021)**
-- Winner ($3,000) \- *ContraGAN: Contrastive Learning for Conditional Image Generation* (NeurIPS2020)
+**[Qualcomm Innovation Fellowship Korea](https://www.qualcomm.com/research/research/university-relations/innovation-fellowship/2021-south-korea) (2021)**
+- Qualcomm.
 
-**16th Samsung Electro­Mechanics Paper Awards (2020)**
-- Silver prize ($2,500)
+**[16th Samsung Electro-Mechanics Paper Awards](http://www.samsungsem-contest.kr) (2020)**
+- Silver Prize.
 
 **National Science and Engineering Scholarship (2013-2019)**
-- Received full scholarship for 8 semesters ($15,000)
+- Korea Student Aid Foundation; full scholarship for 8 semesters.

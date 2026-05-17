@@ -3,95 +3,98 @@
   contents:
     - name: Full Name
       value: Minguk Kang
-    - name: Date of Birth
-      value: 9th July 1994
-    - name: Languages
-      value: Korean, English
+    - name: Email
+      value: <a href="mailto:minguk@pika.art">minguk@pika.art</a>, <a href="mailto:mingukkang1994@gmail.com">mingukkang1994@gmail.com</a>
+    - name: Website
+      value: <a href="https://mingukkang.github.io/">mingukkang.github.io</a>
+    - name: Google Scholar
+      value: <a href="https://scholar.google.com/citations?hl=ko&user=IwokTU4AAAAJ">Profile</a>
+    - name: GitHub
+      value: <a href="https://github.com/MINGUKKANG">MINGUKKANG</a>
+    - name: X
+      value: <a href="https://x.com/minguk_kang">@minguk_kang</a>
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Graduate School of AI
+      institution: Pohang University of Science and Technology (POSTECH), Pohang, Republic of Korea
+      year: 02/2020 - 02/2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Advisors: Prof. Suha Kwak and Prof. Jaesik Park"
+        - "Thesis: Efficient Deep Generative Models for Visual Content Generation"
+        - "GPA: 4.09/4.30"
+    - title: B.S. in Engineering
+      institution: Pusan National University, Busan, Republic of Korea
+      year: 03/2013 - 08/2019
       description:
-        - Description 1.
-        - Description 2.
+        - "Major: Mechanical Engineering; Minor: Statistics"
+        - Summa Cum Laude, College of Engineering
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Founding Research Scientist
+      institution: Pika Labs, Remote
+      year: 11/2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Core contributor to Pika video generation models from Pika 2.0 onward, Nova lipsync models, and PikaStream1.0.
+        - Developed tokenizers, distillation pipelines, fast super-resolution methods, and real-time video agent system components.
+    - title: Research Scientist Intern
+      institution: Pika Labs, Korea (Remote) / Palo Alto, USA
+      year: 06/2024 - 10/2024
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Worked with Chenlin Meng on video generation research.
+    - title: Research Scientist Intern
+      institution: Adobe Research, Korea (Remote) / San Francisco, USA
+      year: 07/2022 - 05/2024
       description:
+        - Mentors: Taesung Park, Connelly Barnes, Eli Shechtman, Jun-Yan Zhu, Richard Zhang, Sylvain Paris
+        - GigaGAN (CVPR 2023) contributed to the development of Adobe Firefly.
+    - title: Undergraduate Research Student
+      institution: Vision and Intelligent System Laboratory, Pusan National University
+      year: 08/2017 - 01/2020
+      description:
+        - Advisor: Prof. Dongjoong Kang
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Research Interest
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Efficient generative AI systems for real-time content generation and understanding across video, audio, and multimodal settings.
+    - Low-latency tokenizers, diffusion-model distillation for few-step synthesis, fast super-resolution, tokenizer diffusibility, and scalable multimodal models.
+
+- title: Products and Software
+  type: list
+  contents:
+    - <a href="https://www.pika.me/blog/introducing-real-time-video-chat">PikaStream1.0</a>
+    - <a href="https://www.pika.me/">Nova Lipsync Models</a>
+    - <a href="https://www.pika.me/">Pika Video Generation Models</a>
+    - <a href="https://github.com/mingukkang/elatentlpips">E-LatentLPIPS</a>
+    - <a href="https://www.adobe.com/products/firefly.html">Adobe Firefly</a>
+    - <a href="https://github.com/POSTECH-CVLab/PyTorch-StudioGAN">PyTorch StudioGAN</a>
+
+- title: Selected Awards
+  type: list
+  contents:
+    - Outstanding Reviewer, European Computer Vision Association, 2024
+    - Graduate School Presidential Science Scholarship, Korea Student Aid Foundation, 2024
+    - 2nd Prize, BK21 Outstanding Paper Awards, POSTECH Graduate School of AI, 2024
+    - 1st Prize, BK21 Outstanding Paper Awards, POSTECH Graduate School of AI, 2022
+    - Qualcomm Innovation Fellowship Korea, Qualcomm, 2021
+    - Silver Prize, 16th Samsung Electro-Mechanics Paper Awards, 2020
+    - National Science and Engineering Scholarship, Korea Student Aid Foundation, 2013-2019
+
+- title: Academic Services
+  type: list
+  contents:
+    - "Conference Reviewer 2026: CVPR, NeurIPS"
+    - "Conference Reviewer 2024: ECCV, SIGGRAPH Asia"
+    - "Conference Reviewer 2023: ICML, ICCV, NeurIPS"
+    - "Conference Reviewer 2022: ICLR, CVPR, ECCV, NeurIPS"
+    - "Journal Reviewer: TPAMI, IJCV"
+
+- title: Proficiencies
+  type: list
+  contents:
+    - Korean (Native), English (Professional Working Proficiency)
+    - PyTorch (Advanced), TensorFlow (Advanced)

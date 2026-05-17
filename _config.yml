@@ -6,9 +6,9 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Minguk
 middle_name: 
 last_name: Kang
-email: mgkang@postech.ac.kr
+email: minguk@pika.art
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Minguk's personal webpage. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Minguk Kang's personal webpage.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -69,7 +69,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: mingukkang # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: # your Twitter handle
+twitter_username: minguk_kang # your X handle
 linkedin_username: mingukkang # your LinkedIn user name
 scholar_userid: IwokTU4AAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
@@ -152,7 +152,7 @@ collections:
     permalink: /honors/:path/
 
 news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-news_limit: 5 # leave blank to include all the news in the `_news` folder
+news_limit: 6 # leave blank to include all the news in the `_news` folder
 education_limit: 5
 
 # -----------------------------------------------------------------------------

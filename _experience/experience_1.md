@@ -6,4 +6,4 @@ inline: true
 
 [Vision and Intelligent System Lab](https://vislab.pusan.ac.kr/), [Pusan National University](https://www.pusan.ac.kr/), Pusan, South Korea
 * Undergraduate Research Student
-- Supervisor: Prof. [Dongjoong Kang](https://vislab.pusan.ac.kr/visme/44915/subview.do)
+- Advisor: Prof. [Dongjoong Kang](https://vislab.pusan.ac.kr/visme/44915/subview.do)
