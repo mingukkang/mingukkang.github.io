@@ -22,6 +22,6 @@ I am a Founding Research Scientist at [Pika](https://www.pika.me/), working on e
 
 At Pika, I have contributed to [PikaStream1.0](https://www.pika.me/blog/introducing-real-time-video-chat), [Nova lipsync models](https://x.com/pika_labs/status/1954935844936024476?s=20), and Pika video generation models including Pika 1.5, 2.0, 2.1, and [Pika 2.2](https://x.com/pika_labs/status/1895156950431867318?s=20). My work spans tokenizers, distillation pipelines, fast super-resolution methods, and real-time video agent system components.
 
-My research focuses on efficient generative AI systems for real-time content generation and understanding. I work on low-latency tokenizers, diffusion-model distillation, fast super-resolution, tokenizer diffusibility, and scalable multimodal models.
+My research focuses on efficient generative AI systems for real-time content generation across video, audio, and multimodal settings, including low-latency tokenizers, diffusion distillation, fast super-resolution, tokenizer diffusibility, and multimodal generative modeling.
 
 Email: [minguk@pika.art](mailto:minguk@pika.art), [mingukkang1994@gmail.com](mailto:mingukkang1994@gmail.com)

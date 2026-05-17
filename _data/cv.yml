@@ -60,8 +60,9 @@
 - title: Research Interest
   type: list
   contents:
-    - Efficient generative AI systems for real-time content generation and understanding across video, audio, and multimodal settings.
-    - Low-latency tokenizers, diffusion-model distillation for few-step synthesis, fast super-resolution, tokenizer diffusibility, and scalable multimodal models.
+    - Efficient generative AI systems for real-time content generation across video, audio, and multimodal settings.
+    - High-compression, low-latency tokenizers, few-step diffusion distillation methods, and fast super-resolution pipelines for interactive generation.
+    - Scalable training of GANs and diffusion models, tokenizer design and diffusibility, and multimodal generative modeling.
 
 - title: Products and Software
   type: list
